@@ -1,6 +1,133 @@
-.col{
-	background: url("img/bgheader.jpg");
+header{
+	background:url("img/bgheader.jpg") ;
 	height: 659px;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
+}
+ul{
+	width: 100%;
+    height: 40px;
+    display: block;
+}
+ul li{
+	display: block;
+	float: left;
+
+}
+li a {
+	color: white;
+	font-size: 14px;
+	padding: 8px;
+	display: block;
+	border-top: 5px solid transparent;
+}
+
+.activo,li a:hover{
+	font-weight: bold;
+	border-top: 5px solid #54d154;
+	color: white;
+	text-decoration: none;
+}
+.buscador{
+	background: rgba(217,216,216,0.85);
+	border: none;
+	border-radius: 16px;
+	height: 27px;
+	padding: 7px 14px;
+	font-size: 16px;
+	color: #111111;
+
+}
+#center-header{
+	height: 556px;
+}
+#centradito{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#centradito h1{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 55px;
+}
+#centradito a{
+	background: #54d154;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 205px;
+    height: 49px;
+    border-radius: 30px;
+    padding: 7px 0;
+    font-size: 21px;
+    transition: 0.5s ease all;
+}
+#centradito a:hover{
+	text-decoration: none;
+	background: #f34d04;
+	transform: scale(1.05);
+}
+#pie{
+	display: flex;
+	justify-content: center;
+}
+#pie a{
+	background: rgba(217,216,216,0.9);
+	border:none;
+	border-radius: 20px;
+	width: 132px;
+	height: 22px;
+	color: #111111;
+	text-decoration: none;
+	font-size: 12px;
+	padding: 3px 0px;
+	text-align: center;
+}
+
+.derecha{
+	margin-left: 10px;
+}
+.bajo{
+	text-align: center;
+	color: #d6d3d3;
+	font-size: 17px;
+}
+.mano{
+	margin-top:;
+	text-align: center;
+	color: #a09f9f;
+	font-size: 30px;
+}
+.rayita{
+	justify-content: center;
+	width: 35px;
+	height: 2px;
+	background-color: #828181; 
+}	
+
+
+ce
+/*.boton{
+	display: inline-block;
+	text-align:left;
+	float: left;
+	margin-right: 26px;
+}
+.boton a{
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*.boton a:hover{
+	background: #535353;
+	color: #f9f9cc;
+	transform: scale(1.1);*/
+
 }
