@@ -48,11 +48,12 @@ li a {
 	flex-direction: column;
 }
 #centradito h1{
-	color: #ffffff;
+	color: #ffff;
 	font-weight: bold;
 	font-size: 55px;
 }
-#centradito a{
+
+.article a, #centradito a{
 	background: #54d154;
     color: #ffffff;
     text-align: center;
@@ -65,7 +66,7 @@ li a {
     font-size: 21px;
     transition: 0.5s ease all;
 }
-#centradito a:hover{
+#centradito a:hover,#centradito a:hover{
 	text-decoration: none;
 	background: #f34d04;
 	transform: scale(1.05);
@@ -97,18 +98,106 @@ li a {
 }
 .mano{
 	margin-top:;
-	text-align: center;
 	color: #a09f9f;
 	font-size: 30px;
+	text-align: center;
 }
 .rayita{
 	justify-content: center;
 	width: 35px;
 	height: 2px;
 	background-color: #828181; 
+}
+.Iconosi i{
+	color: #54d154;
+	font-size: 80px;
+	justify-content: center;
 }	
+.article .Iconosi{
+	width: 50%;
+	height: 142px;
+	background: #e1f3e1;
+	border-radius: 20px;
+	margin: 27px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.article h3{
+	font-size: 24px;
+	color: #828181;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.article p{
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+}
+.article a{
+	height: 30px;
+	width: 40%;
+	margin: auto;
+	font-size: 16px;
+	padding: 3px 0;
+}	
+.encabezado h2{
+	padding-top: 42px;
+	font-size: 20px;
+	color: #828181;
+	text-align: center;
+	letter-spacing: 2px;
+} 
+.encabezado h2:after{
+	content:"";
+	width: 44px;
+	height: 1px;
+	background: #828181;
+	display: block;
+	margin: 15px auto;
 
+}
+.encabezado p{
+	color: #b7b3b3;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+}
+.verde {
+	background: #54d154;
 
+}
+.botonp {
+    margin: 62px auto 43px;
+    font-size: 0;
+    line-height:5px;
+    text-align: center;
+
+}
+.botonp a{
+	display: inline-block;
+    text-decoration: none;
+    border: 1px solid #2b9b2b;
+    font-size: 16px;
+    padding: 15px;
+    background-color: #fff;
+    color: #2b9b2b;
+
+}
+.botonp a:not(:last-child) {
+  border-right: none;
+
+}
+.botonp a:hover {
+  color: #fff;
+  background-color: #2b9b2b;
+}
+.botonp a:first-of-type {
+  border-radius: 16px 0 0 16px;
+}
+.botonp a:last-of-type {
+  border-radius: 0 16px 16px 0;  
 ce
 /*.boton{
 	display: inline-block;
